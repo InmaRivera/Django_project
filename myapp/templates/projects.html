@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Projects</h1>
+
+<!-- creamos bucle for para mostrar todos los elementos de projects -->
+{% for project in projects%}
+<h3>{{project.name}}</h3>
+
+
+
+
+{% endfor %}
+
+{% endblock %}
